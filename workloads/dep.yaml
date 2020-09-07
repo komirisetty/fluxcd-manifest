@@ -4,7 +4,7 @@ metadata:
   name: flux-nginx-dep
   labels:
     app: nginx
- # namespace: argocd 
+  namespace: flux 
 spec:
   replicas: 1
   selector:
